@@ -4,4 +4,6 @@ services:
     env_file:
       - .env
     build: .
+    ports:
+        - "${PROPOSALS_PORT}:${PROPOSALS_PORT}"
     restart: on-failure
