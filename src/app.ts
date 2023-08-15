@@ -3,9 +3,9 @@ import {Checksum256} from '@wharfkit/antelope'
 import config from 'config'
 
 import {ProposalsModule} from './api/modules'
+import {bootstrap} from './bootstrap'
 import {client, logger, version} from './common'
 import {p2p} from './p2p'
-import {bootstrap} from './proposals'
 
 export let chain_id: Checksum256
 
