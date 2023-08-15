@@ -127,7 +127,7 @@ export async function p2p(info: API.v1.GetInfoResponse, restart: boolean = false
                                 break
                             }
                             default: {
-                                logger.error(
+                                logger.debug(
                                     {trx: JSON.stringify(receipt.trx, null, 2)},
                                     'Unknown variant structure'
                                 )
