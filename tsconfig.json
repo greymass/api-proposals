@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es2020"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "lib",
+    "strict": true,
+    "target": "es2020",
+    "sourceMap": false,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+}

@@ -1,0 +1,9 @@
+api = 'PROPOSALS_API'
+name = 'PROPOSALS_APP_NAME'
+p2phost = 'PROPOSALS_P2P_HOST'
+p2pport = 'PROPOSALS_P2P_PORT'
+port = 'PROPOSALS_PORT'
+
+[log]
+__format = 'json'
+__name = 'LOG_STREAMS'

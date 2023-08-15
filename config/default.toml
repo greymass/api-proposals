@@ -1,0 +1,19 @@
+# default configuration
+# override values in config/local.toml or with env vars
+
+# application name used for logging and service namespace
+# name = 'proposal-index'
+
+# Endpoint for APIClient
+# api = 'https://jungle4.greymass.com'
+
+# Endpoint for P2PClient
+# p2phost = ''
+# p2pport = 9876
+
+# The port for the new API to listen on
+# port = 8080
+
+[[log]]
+level = 'debug' 
+out = 'stdout' # path or stdout/err
