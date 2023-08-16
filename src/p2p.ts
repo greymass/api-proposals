@@ -54,7 +54,7 @@ export async function p2p(info: API.v1.GetInfoResponse, restart: boolean = false
             key: publicKey,
             token,
             sig: privateKey.signDigest(token),
-            p2pAddress: 'none',
+            p2pAddress: `proposals-client::blk`,
             time: current.time,
             lastIrreversibleBlockNumber: current.libNum,
             lastIrreversibleBlockId: current.libId,
@@ -62,7 +62,7 @@ export async function p2p(info: API.v1.GetInfoResponse, restart: boolean = false
             headId: current.headId,
             os: 'nodejs',
             agent: 'wharfkit/antelope',
-            generation: 4,
+            generation: 1,
         })
 
         // Send the connected client the message
